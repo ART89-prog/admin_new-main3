@@ -38034,3 +38034,49 @@ bottom: 20px;
     line-height: 16px;
     color: #FFFFFF;
 }
+
+
+
+
+
+.evaluation-calls .page_title {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 16px;
+}
+.evaluation-calls .select-right {
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 1.5;
+}
+.evaluation-calls .nice-select {
+    background: linear-gradient(0deg, rgba(255, 255, 255, 0.95), rgba(255, 255, 255, 0.95)), #0A00C5;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    color: #332894;
+    width: 146px;
+    height: 41px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.04);
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-right: 33px;
+}
+.evaluation-calls .mistake_items {
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 30px;
+    row-gap: 21px;
+    margin-left: 0;    
+}
+.evaluation-calls .mistake_items > * {
+    width: calc(100% / 3 - 20px);
+    margin-left: 0;
+    position: relative;
+    text-decoration: none;
+}
