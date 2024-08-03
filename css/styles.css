@@ -38080,3 +38080,157 @@ bottom: 20px;
     position: relative;
     text-decoration: none;
 }
+.evaluation-calls .mistake_item_title {
+    color: rgba(0, 0, 0, 0.8);
+}
+
+
+.evaluation-calls table {
+    width: 100%;
+    border-collapse: separate;
+    margin-top: 18px;
+    border-spacing: 0 15px;
+}
+.evaluation-calls tbody {
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 1.15;
+    letter-spacing: -0.3;
+    color: #52577E;  
+}
+.evaluation-calls tbody tr td {
+    position: relative; 
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 1.15;
+    letter-spacing: -0.3;
+    color: #52577E;  
+}
+.evaluation-calls tbody tr td:nth-child(1) {
+    width: 23.9%;
+    text-align: start;
+    padding: 9px 17px; 
+    border-top-left-radius: 10px;   
+    border-bottom-left-radius: 10px;  
+}
+.evaluation-calls tbody tr td:nth-child(2) {
+    width: 28.2%;
+    text-align: start;
+    padding: 9px 17px 9px 0;
+}
+.evaluation-calls tbody tr td:nth-child(3) {
+    width: 15%;
+    text-align: start;
+    padding: 9px 17px 9px 0;
+}
+.evaluation-calls tbody tr td:nth-child(4) {
+    text-align: center;
+    padding: 9px 17px;
+    display: flex;
+    justify-content: center;
+}
+.evaluation-calls tbody tr td:nth-child(5) {
+    width: 12.2%;
+    text-align: start;
+    padding: 9px 17px 9px 0;
+}
+.evaluation-calls tbody tr td:nth-child(6) {
+    width: 9.8%;
+    text-align: center;
+    padding: 9px 16px 9px 16px;
+    border-top-right-radius: 10px;   
+    border-bottom-right-radius: 10px; 
+}
+
+.evaluation-calls thead {    
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 1.15;
+    letter-spacing: -0.3px;
+    color: #848AB9;
+}
+.evaluation-calls thead tr th:nth-child(1) {
+    width: 23.9%;
+    text-align: start;
+    padding-bottom: 17px;
+    border-bottom: 1px solid #848AB9;
+}
+.evaluation-calls thead tr th:nth-child(2) {
+    width: 28.2%;
+    text-align: start;
+    padding-bottom: 17px;
+    border-bottom: 1px solid #848AB9;
+}
+.evaluation-calls thead tr th:nth-child(3) {
+    width: 15%;
+    text-align: start;
+    padding-bottom: 17px;
+    border-bottom: 1px solid #848AB9;
+}
+.evaluation-calls thead tr th:nth-child(4) {
+    width: 11.3%;
+    text-align: center;
+    padding-bottom: 17px;
+    border-bottom: 1px solid #848AB9;
+}
+.evaluation-calls thead tr th:nth-child(5) {
+    width: 12.2%;
+    text-align: start;
+    padding-bottom: 17px;
+    border-bottom: 1px solid #848AB9;
+}
+.evaluation-calls thead tr th:nth-child(6) {
+    width: 9.8%;
+    text-align: end;
+    padding-bottom: 17px;
+    border-bottom: 1px solid #848AB9;
+}
+.evaluation-calls tbody tr {
+    border-radius: 10px;
+    background: #fff;
+    margin-top: 15px;
+}
+.inforamation-calls {
+    margin-top: 40px;
+}
+
+.evaluation-calls tbody tr td a {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+.evaluation-calls table .mistake_item-arrow {
+    bottom: auto;
+    right: auto;
+}
+.evaluation-calls tbody tr td:nth-child(4) span {
+    width: 34px;
+    height: 34px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 13px;
+    font-weight: 700;
+    line-height: 1.15;
+    letter-spacing: -0.3px;
+    text-align: center;
+    border-radius: 50%;
+}
+.evaluation-calls tbody tr td:nth-child(4) span.green {
+    background: #bfe7c3;
+    color: #27AF35;
+}
+.evaluation-calls tbody tr td:nth-child(4) span.yellow {
+    background: #fbe1bb;
+    color: #EF9B1C;
+}
+.evaluation-calls tbody tr td:nth-child(4) span.red {
+    background: #f4c1c1;
+    color: #D82F2F;
+}
+.inforamation-calls .block_title {
+    margin-bottom: 11px;
+}
+.evaluation-calls .pagination {
+    margin-top: 34px;
+}
