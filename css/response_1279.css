@@ -2131,6 +2131,9 @@
         width: calc(100% / 2 - 15px);
         margin-bottom: 0;
     }
+    .name-assessment_items > * {
+        width: calc(100% / 3 - 12px);
+    }
 
 
 

@@ -3309,7 +3309,12 @@
     .evaluation-calls_head .page_title {
         width: 100%;
     }
-
+    .name-assessment_items {
+        gap: 10px;
+    }
+    .name-assessment_items > * {
+        width: calc(100% / 2 - 12px);
+    }
 
 
 
