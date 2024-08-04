@@ -38332,3 +38332,22 @@ bottom: 20px;
 .name-assessment_item-text.red {
     color: #D82F2F;
 }
+.evaluation-calls_wrap {
+    padding: 35px;
+    border-radius: 15px;
+    background: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 21px;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 19px;
+    color: #273179;
+    text-align: center;
+}
+.evaluation-calls_wrap .icon {
+    width: 86px;
+    height: 86px;
+}
