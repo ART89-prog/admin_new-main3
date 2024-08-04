@@ -38540,3 +38540,203 @@ bottom: 20px;
     text-align: center;
     border-radius: 50%;
 }
+.communication-assessment_items {
+    display: flex;
+    gap: 22px;
+}
+.communication-assessment_items > * {
+    width: calc(100%/2 - 11px);
+    border-radius: 9px;
+    background: #fff;
+    padding: 18px;
+}
+.communication-assessment_item-top {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 10px;
+    padding-bottom: 18px;
+    position: relative;
+    margin-bottom: 18px;
+}
+.communication-assessment_item-top:before {
+    position: absolute;
+    content: "";
+    width: calc(100% + 36px);
+    height: 1px;
+    background: #E0DEF4;
+    bottom: 0;
+    left: -18px;
+}
+.communication-assessment_item-title {
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 19px;
+    letter-spacing: -0.3px;
+    text-align: left;
+    color: #000;
+    opacity: 0.8;
+    margin-bottom: 10px;
+}
+.communication-assessment_item-text {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 19px;
+    color: #1C2038;
+}
+.communication-assessment_item-number {
+    border-radius: 50%;;    
+    width: 45px;
+    height: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 19px;
+    font-weight: 700;
+    line-height: 1.15;
+    letter-spacing: -0.3px;
+    text-align: center;
+    border-radius: 11px;
+}
+.communication-assessment_item-number.green {
+    background: #bfe7c3;
+    color: #27AF35;
+}
+.communication-assessment_item-number.yellow {
+    color: #EF9B1C;
+    background: #fdf0dd;
+}
+.communication-assessment_item-bottom {
+    padding-bottom: 18px;
+    margin-bottom: 18px;
+    position: relative;
+}
+.communication-assessment_item-bottom:before {
+    position: absolute;
+    content: "";
+    width: calc(100% + 36px);
+    height: 1px;
+    background: #E0DEF4;
+    bottom: 0;
+    left: -18px;
+}
+.communication-assessment_item-subtitle {
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 19px;
+    margin-bottom: 11px;    
+    color: #7178AD;
+}
+
+
+.call-analytics .accordion_item .head:before {
+    display: none;
+}
+.call-analytics .accordion_item .head {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+    padding: 18px;
+}
+.call-analytics .accordion_item .faq_btn:last-child span {
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 16.09px;
+    color: #1E1E1E;
+}
+.call-analytics .accordion_item .faq_btn:last-child .faq_btn-icon {
+    background: var(--main_color);
+}
+.call-analytics .accordion_item-label {    
+    margin-bottom: 8px;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 19px;
+}
+.call-analytics .accordion_item-label.green {
+    color: #5EC62D;
+}
+.call-analytics .accordion_item-label.red {
+    color: #D82F2F;
+}
+.call-analytics .accordion_item-title {
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 19px;
+    letter-spacing: -0.3px;
+    opacity: 0.8;
+}
+.call-analytics .accordion_item .data {
+    padding: 18px;
+}
+.call-analytics .accordion_item .call-analytics_item {
+    padding-bottom: 20px;
+    position: relative;
+}
+.call-analytics .call-analytics_item + .call-analytics_item {
+    margin-top: 18px;    
+}
+.call-analytics .call-analytics_item:last-child:before {
+    display: none;
+}
+.call-analytics .call-analytics_item:last-child {
+    padding-bottom: 0;
+}
+.call-analytics .call-analytics_item:before {
+    position: absolute;
+    content: "";
+    width: calc(100% + 36px);
+    height: 1px;
+    background: #E0DEF4;
+    bottom: 0;
+    left: -18px;
+}
+.call-analytics_item-title {
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 19px;
+    margin-bottom: 8px;
+    color: #7178AD;
+}
+.call-analytics_item-text {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 19px;
+    color: #1C2038;
+}
+.call-analytics_item-button {
+    background: var(--main_color);
+    font-size: 14px;
+    font-weight: 500;
+    color: #fff;
+    padding: 12px 20px;
+    border-radius: 40px;
+    margin-right: auto;
+    display: block;
+}
+
+
+.call-dialog_button {
+    background: var(--main_color);
+    font-size: 14px;
+    font-weight: 500;
+    color: #fff;
+    padding: 12px 20px;
+    border-radius: 40px;
+    display: block;
+}
+.call-dialog_subtitle {
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 19px;
+    margin-bottom: 11px;
+    color: #7178AD;
+}
+.call-dialog_top {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 20px;
+    width: 100%;
+}
