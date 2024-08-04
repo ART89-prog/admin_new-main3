@@ -38039,10 +38039,15 @@ bottom: 20px;
 
 
 
-.evaluation-calls .page_title {
+.evaluation-calls_head {
     display: flex;
     justify-content: space-between;
-    margin-bottom: 16px;
+    align-items: center;
+    gap: 20px;
+}
+.evaluation-calls_head .page_title {
+    width: calc(100% - 300px);
+    margin-bottom: 0;
 }
 .evaluation-calls .select-right {
     display: flex;
@@ -38079,6 +38084,7 @@ bottom: 20px;
     margin-left: 0;
     position: relative;
     text-decoration: none;
+    padding: 14px 36px 18px 15px;
 }
 .evaluation-calls .mistake_item_title {
     color: rgba(0, 0, 0, 0.8);
@@ -38122,6 +38128,7 @@ bottom: 20px;
     width: 15%;
     text-align: start;
     padding: 9px 17px 9px 0;
+    white-space: nowrap;
 }
 .evaluation-calls tbody tr td:nth-child(4) {
     text-align: center;
@@ -38133,6 +38140,7 @@ bottom: 20px;
     width: 12.2%;
     text-align: start;
     padding: 9px 17px 9px 0;
+    white-space: nowrap;
 }
 .evaluation-calls tbody tr td:nth-child(6) {
     width: 9.8%;
@@ -38203,7 +38211,7 @@ bottom: 20px;
     bottom: auto;
     right: auto;
 }
-.evaluation-calls tbody tr td:nth-child(4) span {
+.evaluation-calls tbody tr td .inforamation-calls_procent {
     width: 34px;
     height: 34px;
     display: flex;
@@ -38216,21 +38224,111 @@ bottom: 20px;
     text-align: center;
     border-radius: 50%;
 }
-.evaluation-calls tbody tr td:nth-child(4) span.green {
+.evaluation-calls tbody tr td .inforamation-calls_procent.green {
     background: #bfe7c3;
     color: #27AF35;
 }
-.evaluation-calls tbody tr td:nth-child(4) span.yellow {
+.evaluation-calls tbody tr td .inforamation-calls_procent.yellow {
     background: #fbe1bb;
     color: #EF9B1C;
 }
-.evaluation-calls tbody tr td:nth-child(4) span.red {
+.evaluation-calls tbody tr td .inforamation-calls_procent.red {
     background: #f4c1c1;
     color: #D82F2F;
 }
+.inforamation-calls_label  {
+    padding: 3px 8px 3px 16px;    
+    border-radius: 59px;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 1.15;  
+    display: inline-block;  
+}
+.inforamation-calls_label.green {
+    color: #1CBD2C;
+    background: #d2f2d5;
+    position: relative;
+}
+.inforamation-calls_label.yellow {
+    color: #EF9B1C;
+    background: #fcebd2;
+    position: relative;
+}
+.inforamation-calls_label.green:before {
+    content: "";
+    background: #1CBD2C;
+    position: absolute;
+    width: 6px;
+    height: 6px;
+    top: 7px;
+    left: 6px;
+    border-radius: 50%;
+}
+.inforamation-calls_label.yellow:before {
+    content: "";
+    background: #EF9B1C;
+    position: absolute;
+    width: 6px;
+    height: 6px;
+    top: 7px;
+    left: 6px;
+    border-radius: 50%;
+}
+
 .inforamation-calls .block_title {
     margin-bottom: 11px;
 }
 .evaluation-calls .pagination {
     margin-top: 34px;
+}
+.page_title-info-text {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.15;
+    color: #273179;
+}
+.evaluation-calls .page_title a {
+    margin-top: -13px;
+}
+
+
+.name-assessment {
+}
+.name-assessment_items {
+    display: flex;
+    gap: 15px;
+    flex-wrap: wrap;
+    margin-top: 39px;
+}
+.name-assessment_items > * {
+    padding: 19px 15px;
+    border-radius: 16px;
+    background: #fff;
+    width: calc(100%/4 - 12px);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 15px;
+}
+.name-assessment_item-title {
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 1.15;
+    letter-spacing: -0.3px;
+    color: #020027;
+}
+.name-assessment_item-text {
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 1.15;
+    letter-spacing: -0.3px;
+}
+.name-assessment_item-text.green {
+    color: #27AF35;
+}
+.name-assessment_item-text.yellow {
+    color: #EF9B1C;
+}
+.name-assessment_item-text.red {
+    color: #D82F2F;
 }

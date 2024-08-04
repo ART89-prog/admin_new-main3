@@ -3286,4 +3286,31 @@
 
 
 
+
+    .evaluation-calls .mistake_items > * {
+        width: 100%;
+    }
+    .evaluation-calls .table-wrap {
+        overflow-y: scroll;
+        overflow: -moz-scrollbars-none; 
+        -ms-overflow-style: none;
+    }
+    .evaluation-calls table {
+        width: 760px;
+    }
+    .evaluation-calls .table-wrap::-webkit-scrollbar { 
+        width: 0; 
+    }
+    .evaluation-calls_head {
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+    }
+    .evaluation-calls_head .page_title {
+        width: 100%;
+    }
+
+
+
+
 }
