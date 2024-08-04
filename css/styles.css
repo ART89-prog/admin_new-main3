@@ -38245,6 +38245,12 @@ bottom: 20px;
 .inforamation-calls .block_title {
     margin-bottom: 11px;
 }
+.inforamation-calls .block_text {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.15;
+    color: #273179;
+}
 .evaluation-calls .pagination {
     margin-top: 34px;
 }
@@ -38795,7 +38801,8 @@ bottom: 20px;
     width: 42px;
     height: 42px;
     border-radius: 50%;
-    background: #E5E3F6;    
+    background: #E5E3F6;  
+    flex-shrink: 0;  
 }
 .call-dialog_item.two .call-dialog_item-info {
     padding: 16px 11px 18px 13px;
