@@ -38739,4 +38739,28 @@ bottom: 20px;
     justify-content: space-between;
     gap: 20px;
     width: 100%;
+    padding-bottom: 20px;
+    margin-bottom: 15px;
+    position: relative;
+}
+.call-dialog_top:before {
+    position: absolute;
+    content: "";
+    width: calc(100% + 42px);
+    height: 1px;
+    background: #E0DEF4;
+    bottom: 0;
+    left: -21px;
+}
+.call-dialog_wrap {
+    padding: 26px 21px 38px;
+    border-radius: 9px;
+    background: #fff;
+}
+.call-dialog_audio {
+    width: calc(100% - 200px);
+}
+.call-dialog_analiz {
+    display: flex;
+    gap: 13px;
 }
