@@ -3331,6 +3331,16 @@
         width: 0; 
     }
 
+    .communication-assessment_items > * {
+        width: 100%;
+    }
+    .call-dialog_top {
+        flex-direction: column;
+    }
+    .call-dialog_audio {
+        width: 100%;
+    }
+
 
 
 }

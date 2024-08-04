@@ -38543,6 +38543,7 @@ bottom: 20px;
 .communication-assessment_items {
     display: flex;
     gap: 22px;
+    flex-wrap: wrap;
 }
 .communication-assessment_items > * {
     width: calc(100%/2 - 11px);
@@ -38597,6 +38598,7 @@ bottom: 20px;
     letter-spacing: -0.3px;
     text-align: center;
     border-radius: 11px;
+    flex-shrink: 0;
 }
 .communication-assessment_item-number.green {
     background: #bfe7c3;
@@ -38763,4 +38765,87 @@ bottom: 20px;
 .call-dialog_analiz {
     display: flex;
     gap: 13px;
+    margin-bottom: 26px;
+}
+
+.call-dialog_items {
+    max-width: 700px;
+}
+.call-dialog_item + .call-dialog_item {
+    margin-top: 17px;
+}
+.call-dialog_item {
+    display: flex;
+    align-items: end;
+    gap: 11px;
+}
+.call-dialog_item.one .call-dialog_item-avatar {
+    font-size: 25px;
+    font-weight: 500;
+    line-height: 29px;
+    text-align: center;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 42px;
+    height: 42px;
+    border-radius: 50%;
+    background: var(--main_color);
+    flex-shrink: 0;
+}
+.call-dialog_item.one .call-dialog_item-info {
+    padding: 16px 11px 18px 13px;
+    border-radius: 17px 17px 17px 0px;
+    background: var(--main_color);
+}
+.call-dialog_item.one .call-dialog_item-author {
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 17px;
+    margin-bottom: 10px;
+    color: #fff;
+}
+.call-dialog_item.one .call-dialog_item-text {
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 20px;
+    color: #fff;
+}
+.call-dialog_item-button .icon {
+    width: 20px;
+    height: 20px;
+}
+.call-dialog_item.two .call-dialog_item-avatar {
+    font-size: 25px;
+    font-weight: 500;
+    line-height: 29px;
+    text-align: center;
+    color: #273179;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 42px;
+    height: 42px;
+    border-radius: 50%;
+    background: #E5E3F6;    
+}
+.call-dialog_item.two .call-dialog_item-info {
+    padding: 16px 11px 18px 13px;
+    border-radius: 17px 17px 17px 0px;
+    background: #fff;
+    border: 1px solid #ABAAE2;
+}
+.call-dialog_item.two .call-dialog_item-author {
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 17px;
+    margin-bottom: 10px;
+    color: #273179;
+}
+.call-dialog_item.two .call-dialog_item-text {
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 20px;
+    color: #393939;
 }
