@@ -38091,20 +38091,20 @@ bottom: 20px;
 }
 
 
-.evaluation-calls table {
+.inforamation-calls table {
     width: 100%;
     border-collapse: separate;
     margin-top: 18px;
     border-spacing: 0 15px;
 }
-.evaluation-calls tbody {
+.inforamation-calls tbody {
     font-size: 14px;
     font-weight: 500;
     line-height: 1.15;
     letter-spacing: -0.3;
     color: #52577E;  
 }
-.evaluation-calls tbody tr td {
+.inforamation-calls tbody tr td {
     position: relative; 
     font-size: 14px;
     font-weight: 500;
@@ -38112,37 +38112,37 @@ bottom: 20px;
     letter-spacing: -0.3;
     color: #52577E;  
 }
-.evaluation-calls tbody tr td:nth-child(1) {
+.inforamation-calls tbody tr td:nth-child(1) {
     width: 23.9%;
     text-align: start;
     padding: 9px 17px; 
     border-top-left-radius: 10px;   
     border-bottom-left-radius: 10px;  
 }
-.evaluation-calls tbody tr td:nth-child(2) {
+.inforamation-calls tbody tr td:nth-child(2) {
     width: 28.2%;
     text-align: start;
     padding: 9px 17px 9px 0;
 }
-.evaluation-calls tbody tr td:nth-child(3) {
+.inforamation-calls tbody tr td:nth-child(3) {
     width: 15%;
     text-align: start;
     padding: 9px 17px 9px 0;
     white-space: nowrap;
 }
-.evaluation-calls tbody tr td:nth-child(4) {
+.inforamation-calls tbody tr td:nth-child(4) {
     text-align: center;
     padding: 9px 17px;
     display: flex;
     justify-content: center;
 }
-.evaluation-calls tbody tr td:nth-child(5) {
+.inforamation-calls tbody tr td:nth-child(5) {
     width: 12.2%;
     text-align: start;
     padding: 9px 17px 9px 0;
     white-space: nowrap;
 }
-.evaluation-calls tbody tr td:nth-child(6) {
+.inforamation-calls tbody tr td:nth-child(6) {
     width: 9.8%;
     text-align: center;
     padding: 9px 16px 9px 16px;
@@ -38150,50 +38150,50 @@ bottom: 20px;
     border-bottom-right-radius: 10px; 
 }
 
-.evaluation-calls thead {    
+.inforamation-calls thead {    
     font-size: 14px;
     font-weight: 700;
     line-height: 1.15;
     letter-spacing: -0.3px;
     color: #848AB9;
 }
-.evaluation-calls thead tr th:nth-child(1) {
+.inforamation-calls thead tr th:nth-child(1) {
     width: 23.9%;
     text-align: start;
     padding-bottom: 17px;
     border-bottom: 1px solid #848AB9;
 }
-.evaluation-calls thead tr th:nth-child(2) {
+.inforamation-calls thead tr th:nth-child(2) {
     width: 28.2%;
     text-align: start;
     padding-bottom: 17px;
     border-bottom: 1px solid #848AB9;
 }
-.evaluation-calls thead tr th:nth-child(3) {
+.inforamation-calls thead tr th:nth-child(3) {
     width: 15%;
     text-align: start;
     padding-bottom: 17px;
     border-bottom: 1px solid #848AB9;
 }
-.evaluation-calls thead tr th:nth-child(4) {
+.inforamation-calls thead tr th:nth-child(4) {
     width: 11.3%;
     text-align: center;
     padding-bottom: 17px;
     border-bottom: 1px solid #848AB9;
 }
-.evaluation-calls thead tr th:nth-child(5) {
+.inforamation-calls thead tr th:nth-child(5) {
     width: 12.2%;
     text-align: start;
     padding-bottom: 17px;
     border-bottom: 1px solid #848AB9;
 }
-.evaluation-calls thead tr th:nth-child(6) {
+.inforamation-calls thead tr th:nth-child(6) {
     width: 9.8%;
     text-align: end;
     padding-bottom: 17px;
     border-bottom: 1px solid #848AB9;
 }
-.evaluation-calls tbody tr {
+.inforamation-calls tbody tr {
     border-radius: 10px;
     background: #fff;
     margin-top: 15px;
@@ -38202,16 +38202,16 @@ bottom: 20px;
     margin-top: 40px;
 }
 
-.evaluation-calls tbody tr td a {
+.inforamation-calls tbody tr td a {
     display: flex;
     align-items: center;
     justify-content: flex-end;
 }
-.evaluation-calls table .mistake_item-arrow {
+.inforamation-calls table .mistake_item-arrow {
     bottom: auto;
     right: auto;
 }
-.evaluation-calls tbody tr td .inforamation-calls_procent {
+.inforamation-calls tbody tr td .inforamation-calls_procent {
     width: 34px;
     height: 34px;
     display: flex;
@@ -38224,15 +38224,15 @@ bottom: 20px;
     text-align: center;
     border-radius: 50%;
 }
-.evaluation-calls tbody tr td .inforamation-calls_procent.green {
+.inforamation-calls tbody tr td .inforamation-calls_procent.green {
     background: #bfe7c3;
     color: #27AF35;
 }
-.evaluation-calls tbody tr td .inforamation-calls_procent.yellow {
+.inforamation-calls tbody tr td .inforamation-calls_procent.yellow {
     background: #fbe1bb;
     color: #EF9B1C;
 }
-.evaluation-calls tbody tr td .inforamation-calls_procent.red {
+.inforamation-calls tbody tr td .inforamation-calls_procent.red {
     background: #f4c1c1;
     color: #D82F2F;
 }
@@ -38292,8 +38292,7 @@ bottom: 20px;
 }
 
 
-.name-assessment {
-}
+
 .name-assessment_items {
     display: flex;
     gap: 15px;
@@ -38350,4 +38349,136 @@ bottom: 20px;
 .evaluation-calls_wrap .icon {
     width: 86px;
     height: 86px;
+}
+.examples-calls table {
+    width: 100%;
+    border-collapse: separate;
+    margin-top: 18px;
+    border-spacing: 0 15px;
+}
+.examples-calls tbody {
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 1.15;
+    letter-spacing: -0.3;
+    color: #52577E;  
+}
+.examples-calls tbody tr td {
+    position: relative; 
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 1.15;
+    letter-spacing: -0.3;
+    color: #52577E;  
+}
+.examples-calls tbody tr td:nth-child(1) {
+    width: 15%;
+    text-align: start;
+    padding: 9px 17px; 
+    border-top-left-radius: 10px;   
+    border-bottom-left-radius: 10px;  
+}
+.examples-calls tbody tr td:nth-child(2) {
+    width: 28.2%;
+    text-align: start;
+    padding: 9px 17px 9px 0;
+}
+.examples-calls tbody tr td:nth-child(3) {
+    width: 35.7%;
+    text-align: start;
+    padding: 9px 17px 9px 0;
+    white-space: nowrap;
+}
+.examples-calls tbody tr td:nth-child(4) {
+    text-align: center;
+    padding: 9px 17px;
+    display: flex;
+    justify-content: center;
+}
+.examples-calls tbody tr td:nth-child(5) {
+    width: 9.8%;
+    text-align: end;
+    padding: 9px 17px 9px 0;
+    white-space: nowrap;
+}
+
+.examples-calls thead {    
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 1.15;
+    letter-spacing: -0.3px;
+    color: #848AB9;
+}
+.examples-calls thead tr th:nth-child(1) {
+    width: 15%;
+    text-align: start;
+    padding-bottom: 17px;
+    border-bottom: 1px solid #848AB9;
+}
+.examples-calls thead tr th:nth-child(2) {
+    width: 28.2%;
+    text-align: start;
+    padding-bottom: 17px;
+    border-bottom: 1px solid #848AB9;
+}
+.examples-calls thead tr th:nth-child(3) {
+    width: 35.7%;
+    text-align: start;
+    padding-bottom: 17px;
+    border-bottom: 1px solid #848AB9;
+}
+.examples-calls thead tr th:nth-child(4) {
+    width: 11.33%;
+    text-align: center;
+    padding-bottom: 17px;
+    border-bottom: 1px solid #848AB9;
+}
+.examples-calls thead tr th:nth-child(5) {
+    width: 9.8%;
+    text-align: end;
+    padding-bottom: 17px;
+    border-bottom: 1px solid #848AB9;
+}
+.examples-calls tbody tr {
+    border-radius: 10px;
+    background: #fff;
+    margin-top: 15px;
+}
+.examples-calls {
+    margin-top: 40px;
+}
+
+.examples-calls tbody tr td a {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+.examples-calls table .mistake_item-arrow {
+    bottom: auto;
+    right: auto;
+}
+.examples-calls tbody tr td .inforamation-calls_procent {
+    width: 34px;
+    height: 34px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 13px;
+    font-weight: 700;
+    line-height: 1.15;
+    letter-spacing: -0.3px;
+    text-align: center;
+    border-radius: 50%;
+}
+.examples-calls tbody tr td .inforamation-calls_procent.green {
+    background: #bfe7c3;
+    color: #27AF35;
+}
+.examples-calls tbody tr td .inforamation-calls_procent.yellow {
+    background: #fbe1bb;
+    color: #EF9B1C;
+}
+.examples-calls tbody tr td .inforamation-calls_procent.red {
+    background: #f4c1c1;
+    color: #D82F2F;
 }

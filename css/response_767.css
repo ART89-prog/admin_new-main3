@@ -3316,6 +3316,21 @@
         width: calc(100% / 2 - 12px);
     }
 
+    .evaluation-calls .mistake_items > * {
+        width: 100%;
+    }
+    .examples-calls .table-wrap {
+        overflow-y: scroll;
+        overflow: -moz-scrollbars-none; 
+        -ms-overflow-style: none;
+    }
+    .examples-calls table {
+        width: 760px;
+    }
+    .examples-calls .table-wrap::-webkit-scrollbar { 
+        width: 0; 
+    }
+
 
 
 }
